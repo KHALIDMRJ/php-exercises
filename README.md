@@ -53,7 +53,8 @@ This project was built to practice and demonstrate the ability to:
 ## 🧠 What This Project Covers
 
 ### 1) Student Information & Grade Processing
-The file `Exercices.php` handles a form-based student exercise where the user enters personal information and grades, then the program computes:
+
+The file `Exercice1_2.php` handles a form-based student exercise where the user enters personal information and grades, then the program computes:
 
 - total score
 - average
@@ -64,6 +65,7 @@ The file `Exercices.php` handles a form-based student exercise where the user en
 - association of subjects with grades using arrays
 
 ### 2) Multiplication, Patterns & Number Logic
+
 The file `Patterns.php` focuses on algorithmic printing and number processing:
 
 - multiplication table
@@ -74,6 +76,7 @@ The file `Patterns.php` focuses on algorithmic printing and number processing:
 - parity test (even / odd)
 
 ### 3) Fibonacci Sequence
+
 The file `Fibonacci.php` implements the Fibonacci sequence:
 
 - iterative approach for performance and clarity
@@ -86,7 +89,7 @@ The file `Fibonacci.php` implements the Fibonacci sequence:
 ```bash
 php-exercises/
 │
-├── Exercices.php      # Student form, grades, average, mention, loops, arrays
+├── Exercice1_2.php      # Student form, grades, average, mention, loops, arrays
 ├── Fibonacci.php      # Fibonacci sequence generation
 ├── Patterns.php       # Multiplication table, patterns, parity, sums
 └── README.md          # Project documentation
@@ -106,7 +109,8 @@ php-exercises/
 
 ## 🔍 Detailed Features
 
-### ✅ `Exercices.php`
+### ✅ `Exercice1_2.php`
+
 - HTML form for:
   - first name
   - last name
@@ -130,6 +134,7 @@ php-exercises/
 - mapping subject names to marks
 
 ### ✅ `Patterns.php`
+
 - multiplication table generation
 - centered triangle with stars
 - square pattern
@@ -140,6 +145,7 @@ php-exercises/
 - odd/even check
 
 ### ✅ `Fibonacci.php`
+
 - Fibonacci sequence from `F0` upward
 - efficient iterative construction
 - recursive version shown as algorithmic alternative
@@ -163,6 +169,7 @@ C:\xampp\htdocs\php-exercises
 ```
 
 ### 2. Start Apache
+
 Open **XAMPP Control Panel** and start:
 
 - **Apache**
@@ -172,7 +179,7 @@ Open **XAMPP Control Panel** and start:
 Use one of these URLs:
 
 ```text
-http://localhost/php-exercises/Exercices.php
+http://localhost/php-exercises/Exercice1_2.php
 http://localhost/php-exercises/Patterns.php
 http://localhost/php-exercises/Fibonacci.php
 ```
@@ -255,4 +262,3 @@ This project is intended for **educational and academic use**.
 ## ⭐ Final Note
 
 If you found this project useful, consider adding a star on GitHub to support the work and keep improving the repository.
-
